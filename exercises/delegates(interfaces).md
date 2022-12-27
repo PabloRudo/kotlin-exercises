@@ -1,4 +1,4 @@
-# Interfaces y abstracciones
+# Implementaciones delegadas
 En esta sección se va a realizar un ejercicio para practicar el patrón *Delegate* en kotlin, concretamente la delegación de la implementación de una interfaz. En kotlin se puede utilizar la palabra clave **by** para dicha tarea.
 
 1. Crea una interfaz llamada *IBankAccount* con tres métodos: *deposit* que recibe un parámetro de tipo *Double* y no devuelve nada, *withdraw* que recibe un parámetro de tipo *Double* y no devuelve nada, y *checkBalance* que no recibe parámetros y devuelve un valor de tipo *Double*.
